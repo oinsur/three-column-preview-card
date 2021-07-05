@@ -117,17 +117,8 @@ button:hover {
    font-size: 1em;
 }
 
-/*media queries*/
+/*===========media queries===========*/
 @media screen and (min-width: 768px) {
-  h2 {
-    margin-bottom: 5%;
-  }
-  p {
-    margin-bottom: 5%;
-    width: 80%;
-  }
-}
-@media screen and (min-width: 1024px) {
   body {
     height: 800px;
   }
@@ -152,6 +143,9 @@ button:hover {
   }
   button {
     padding: 5% 10%;
+  }
+  .attribution {
+    padding-top: 2%;
   }
 }
 @media screen and (min-width: 1440px) {
